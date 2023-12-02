@@ -15,4 +15,22 @@ body {
 
 #global-controls {
   background-color: var(--secondary-background-color);
+  height: 15vh;
+}
+
+#middle-container {
+  display: flex;
+  height: 70vh;
+}
+
+#sound-controls {
+  flex: 1;
+}
+
+#sound-board {
+  flex: 2;
+} 
+
+#sample-controls {
+  flex: 1;
 }
